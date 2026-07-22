@@ -15,13 +15,20 @@
 ## Extração de palavras-chave (extract key phrases) - Language Studio.
   Diferente da Análise de Sentimentos ele não procura descobrir os sentimentos da frase, mas identificar automaticamente os principais conceitos presentes em um texto. Isso permite resumir grandes documentos, e extrair todas informações necessarias e mais relevantes.
   No teste efetuado ele pode extrair informações como: endereço, restaurane, empregado, contrato, cronogramas, informações financeiras, prazo etc. o interessante é que ele não tenta resumir, mas buscar descobrir quais são os conceitos importantes.
+  
   ![Resultado positivo](images/language-studio/06-key-phrases-result.webp)
   > No contexto jurídico, essa funcionalidade pode auxiliar na identificação automática de cláusulas, obrigações, prazos e outras informações relevantes em contratos ou documentos extensos.
 
 ## Fala para texto(Speech to text) - Speech studio.
 
+  Com esse recurso é possível converter automaticamente um conteúdo de áudio em texto. Durante o teste, a ferramenta identificou o idioma da gravação e realizou a transcrição da conversa de forma automática, preservando o conteúdo falado.
+  O resultado demonstra que o serviço é capaz de transformar conteúdo falado em texto estruturado de forma rápida, possibilitando aplicações como transcrição de reuniões, entrevistas, aulas, audiências e atendimentos ao cliente.
+  
 ## Texto para fala(Text to speech) - Speech studio.
 
+  Durante o teste realizado, foi possível observar que a voz sintetizada apresentou boa fluidez, pronúncia natural e pausas compatíveis com a estrutura da frase. Esse resultado demonstra a evolução das vozes neurais em relação aos antigos sintetizadores de fala, proporcionando uma experiência mais natural e agradável ao usuário.
+
+  > Essa funcionalidade possui aplicações práticas em assistentes virtuais, sistemas de acessibilidade, leitura automática de documentos, centrais de atendimento e criação de conteúdos em áudio.
 
 ### Reflexões finais.
   Os experimentos demonstraram que os serviços do Azure AI vão além da automação de tarefas, permitindo transformar textos e áudios em informações estruturadas que podem apoiar análises e processos de tomada de decisão. Recursos como análise de sentimentos e extração de palavras-chave mostram como a Inteligência Artificial pode auxiliar na interpretação de grandes volumes de informação de forma organizada e consistente.
